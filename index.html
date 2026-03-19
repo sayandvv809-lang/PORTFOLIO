@@ -1,0 +1,214 @@
+<!-- File 1: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayand | Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="#">MY PORTFOLIO<span class="text-accent">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="min-vh-100 d-flex align-items-center hero-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7 order-2 order-lg-1" data-aos="fade-right">
+                    <h1 class="display-3 fw-bold">SAYAND</h1>
+                    <h2 class="display-5 text-accent mb-4 typing">Full Stack Developer</h2>
+                    <p class="lead text-secondary mb-5">Building scalable, beautiful web experiences with React, Django, Python & modern frontend tech</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#projects" class="btn btn-accent btn-lg px-5 py-3">Explore Projects</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-5 py-3">Let's Connect</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center order-1 order-lg-2" data-aos="fade-left">
+                    <div class="hero-portrait">
+                        <img src="https://picsum.photos/id/1005/600/600" alt="Sayand Portrait" class="img-fluid rounded-circle shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">About Me</h2>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="portrait-container">
+                        <img src="https://picsum.photos/id/1005/800/800" alt="Sayand Professional Portrait" class="portrait-img img-fluid rounded-4 shadow">
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <p class="lead mb-4">Hello! I'm Sayand, a passionate Full Stack Developer crafting high-performance applications.</p>
+                    <p>I specialize in React frontends, Django/Python backends, responsive design, and turning ideas into polished digital products. With clean code and user-focused design, I deliver experiences that perform and impress.</p>
+                    <div class="row g-4 mt-4">
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box text-center">
+                                <h4>10+</h4>
+                                <p>Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box text-center">
+                                <h4>1</h4>
+                                <p>Years Exp</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-box text-center">
+                                <h4>100%</h4>
+                                <p>Client Love</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-accent mt-5 px-5 py-3">Download CV <i class="fas fa-arrow-down ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Core Skills</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in"><div class="skill-card"><i class="fab fa-html5 fa-3x"></i><h5>HTML5</h5><div class="progress"><div class="progress-bar" style="width:96%"></div></div></div></div>
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100"><div class="skill-card"><i class="fab fa-css3-alt fa-3x"></i><h5>CSS3</h5><div class="progress"><div class="progress-bar" style="width:94%"></div></div></div></div>
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200"><div class="skill-card"><i class="fab fa-js-square fa-3x"></i><h5>JavaScript</h5><div class="progress"><div class="progress-bar" style="width:92%"></div></div></div></div>
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300"><div class="skill-card"><i class="fab fa-bootstrap fa-3x"></i><h5>Bootstrap</h5><div class="progress"><div class="progress-bar" style="width:90%"></div></div></div></div>
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in"><div class="skill-card"><i class="fab fa-react fa-3x"></i><h5>React</h5><div class="progress"><div class="progress-bar" style="width:88%"></div></div></div></div>
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100"><div class="skill-card"><i class="fab fa-python fa-3x"></i><h5>Python</h5><div class="progress"><div class="progress-bar" style="width:85%"></div></div></div></div>
+                <div class="col-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200"><div class="skill-card"><i class="fas fa-server fa-3x"></i><h5>Django</h5><div class="progress"><div class="progress-bar" style="width:83%"></div></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Featured Projects</h2>
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="project-card">
+                        <img src="https://picsum.photos/id/1015/800/500" class="project-img" alt="Portfolio">
+                        <div class="project-overlay">
+                            <h4>Personal Portfolio</h4>
+                            <p>Modern responsive portfolio with React frontend + Django API</p>
+                            <div class="tech-stack">
+                                <span>React</span><span>Django</span><span>Bootstrap</span>
+                            </div>
+                            <a href="#" class="btn btn-sm btn-accent mt-3">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="project-card">
+                        <img src="https://picsum.photos/id/201/800/500" class="project-img" alt="Calculator">
+                        <div class="project-overlay">
+                            <h4>Scientific Calculator</h4>
+                            <p>Interactive calculator with animations & keyboard support</p>
+                            <div class="tech-stack">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <button onclick="openCalculatorModal()" class="btn btn-sm btn-accent mt-3">Launch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-xl-6">
+                    <form id="contactForm" class="contact-form" data-aos="fade-up">
+                        <div class="row g-4">
+                            <div class="col-md-6"><input type="text" class="form-control" placeholder="Name" required></div>
+                            <div class="col-md-6"><input type="email" class="form-control" placeholder="Email" required></div>
+                            <div class="col-12"><textarea class="form-control" rows="5" placeholder="Message" required></textarea></div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-accent btn-lg px-5 py-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <p class="mb-0">© 2026 Sayand. Built with passion using HTML, CSS, JS, Bootstrap, React & Django</p>
+    </footer>
+
+    <!-- Calculator Modal (same as before) -->
+    <div class="modal fade" id="calculatorModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content calculator-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white">Scientific Calculator</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="calculator">
+                        <input type="text" id="calc-display" class="form-control display" readonly value="0">
+                        <div class="calculator-buttons">
+                            <button onclick="clearCalc()" class="btn btn-danger">C</button>
+                            <button onclick="appendToDisplay('(')" class="btn btn-secondary">(</button>
+                            <button onclick="appendToDisplay(')')" class="btn btn-secondary">)</button>
+                            <button onclick="appendToDisplay('/')" class="btn btn-accent">÷</button>
+                            <button onclick="appendToDisplay('7')" class="btn btn-dark">7</button>
+                            <button onclick="appendToDisplay('8')" class="btn btn-dark">8</button>
+                            <button onclick="appendToDisplay('9')" class="btn btn-dark">9</button>
+                            <button onclick="appendToDisplay('*')" class="btn btn-accent">×</button>
+                            <button onclick="appendToDisplay('4')" class="btn btn-dark">4</button>
+                            <button onclick="appendToDisplay('5')" class="btn btn-dark">5</button>
+                            <button onclick="appendToDisplay('6')" class="btn btn-dark">6</button>
+                            <button onclick="appendToDisplay('-')" class="btn btn-accent">−</button>
+                            <button onclick="appendToDisplay('1')" class="btn btn-dark">1</button>
+                            <button onclick="appendToDisplay('2')" class="btn btn-dark">2</button>
+                            <button onclick="appendToDisplay('3')" class="btn btn-dark">3</button>
+                            <button onclick="appendToDisplay('+')" class="btn btn-accent">+</button>
+                            <button onclick="appendToDisplay('0')" class="btn btn-dark col-6">0</button>
+                            <button onclick="appendToDisplay('.')" class="btn btn-dark">.</button>
+                            <button onclick="calculate()" class="btn btn-success">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
